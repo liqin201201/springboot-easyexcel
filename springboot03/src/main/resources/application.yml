@@ -10,3 +10,8 @@ spring:
     #初始化会删除掉之前的表，一般不用
     #initialization-mode: always
     schema: classpath*:*.sql
+#让swagger生效需要配置
+swagger2:
+  enable: true
+  title: lq
+  version: 1.0.0

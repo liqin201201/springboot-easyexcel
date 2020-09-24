@@ -3,6 +3,9 @@ package com.example.springboot03.entity;
 import com.alibaba.excel.annotation.ExcelProperty;
 import lombok.Data;
 
+/**
+ * @author lq
+ */
 @Data
 public class Department {
 	@ExcelProperty("id")
