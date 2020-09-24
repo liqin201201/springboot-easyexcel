@@ -2,6 +2,9 @@ package com.example.springboot03.entity;
 
 import java.util.Date;
 
+/**
+ * @author admin
+ */
 public class Employee {
 
 	private Integer id;

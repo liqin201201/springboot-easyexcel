@@ -59,7 +59,12 @@
 			<artifactId>lombok</artifactId>
 			<version>1.18.12</version>
 		</dependency>
-	</dependencies>
+		<dependency>
+			<groupId>com.pystandard</groupId>
+			<artifactId>swagger2-spring-boot-starter</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
