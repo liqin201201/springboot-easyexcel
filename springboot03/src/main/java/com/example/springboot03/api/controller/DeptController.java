@@ -3,6 +3,7 @@ package com.example.springboot03.api.controller;
 import com.alibaba.excel.EasyExcel;
 import com.example.springboot03.dao.DeptDao;
 import com.example.springboot03.entity.Department;
+import com.example.springboot03.log.annotation.ApiLogAnnotation;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,6 +27,7 @@ public class DeptController {
 
     @GetMapping("/dept/getDept")
     @ApiOperation("查询部门信息")
+    @ApiLogAnnotation
     public List<Department> findAll() {
         return deptDao.findAll();
     }

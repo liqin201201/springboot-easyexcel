@@ -1,9 +1,8 @@
 package com.example.springboot03.system.interceptor;
 
-import com.example.springboot03.common.SystemConstant;
+import com.example.springboot03.common.constant.SystemConstant;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
-import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -34,7 +33,7 @@ public class TokenInterceptor extends HandlerInterceptorAdapter {
 
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-        super.postHandle(request, response, handler, modelAndView);
+        System.out.println("拦截 postHandle方法");
     }
 
     @Override

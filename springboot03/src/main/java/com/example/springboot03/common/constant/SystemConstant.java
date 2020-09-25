@@ -1,4 +1,4 @@
-package com.example.springboot03.common;
+package com.example.springboot03.common.constant;
 
 /**
  * @author liqin
